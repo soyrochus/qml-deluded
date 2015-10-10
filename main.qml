@@ -24,8 +24,10 @@ ApplicationWindow {
     }
 
     Card {
-        frontImageSource: "img/large/maj21.jpg"
-        backImageSource: "img/large/cups02.jpg"
+        frontImageSource: "img/small/maj21s.gif"
+        backImageSource: "img/small/tarot-back.gif"
+        // frontImageSource: "img/large/maj21.jpg"
+        // backImageSource: "img/large/cups02.jpg"
         angle: 180
         yAxis: 1 }
 

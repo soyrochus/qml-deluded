@@ -6,5 +6,7 @@
         <file>img/large/maj21.jpg</file>
         <file>img/large/tarot-back.jpg</file>
         <file>img/large/cups02.jpg</file>
+        <file>img/small/maj21s.gif</file>
+        <file>img/small/tarot-back.gif</file>
     </qresource>
 </RCC>
