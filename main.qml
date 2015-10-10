@@ -33,9 +33,11 @@ ApplicationWindow {
         }
     }
 
+    MainForm {}
 
     RowLayout {
         id: row
+        visible: false
         anchors.fill: parent
         Card {
             id: cart
@@ -52,8 +54,7 @@ ApplicationWindow {
             border.color: "lightsteelblue"
             border.width: 4
             radius: 8
-            Text{
-                Component.onCompleted: print(cartText.width)
+            Text{              
                 anchors.margins: 10
                 anchors.fill: parent
                 text: "<b>Hello</b> <i>World!</i>"
