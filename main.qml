@@ -5,8 +5,8 @@ import QtQuick.Dialogs 1.2
 
 ApplicationWindow {
     title: qsTr("Hello World")
-    width: 640
-    height: 480
+    minimumWidth: 800
+    minimumHeight: 600
     visible: true
 
     menuBar: MenuBar {
@@ -23,7 +23,15 @@ ApplicationWindow {
         }
     }
 
-    MainForm {
+    Card {
+        frontImageSource: "img/large/maj21.jpg"
+        backImageSource: "img/large/cups02.jpg"
+        angle: 180
+        yAxis: 1 }
+
+
+
+    /*MainForm {L
         anchors.fill: parent
         button1.onClicked: messageDialog.show(qsTr("Button 1 pressed"))
         button2.onClicked: messageDialog.show(qsTr("Button 2 pressed"))
@@ -38,5 +46,5 @@ ApplicationWindow {
             messageDialog.text = caption;
             messageDialog.open();
         }
-    }
+    }*/
 }
