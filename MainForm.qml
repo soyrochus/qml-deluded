@@ -4,7 +4,7 @@ import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 
 ColumnLayout {
-    property alias singleCartAction: singleCart.action
+    property alias singleCartAction: singleCard.action
     property alias celticCrossAction: celticCross.action
     property alias logAction: log.action
 
@@ -15,17 +15,47 @@ ColumnLayout {
         topMargin: 10
     }
 
+
     Button {
-        id: singleCart
+        id: singleCard
         Layout.fillWidth: true
+        iconSource: "img/icons/card.png"
+        style: ButtonStyle {
+            background: Rectangle {
+                /*implicitWidth: 100
+                        implicitHeight: 25*/
+                border.width: control.activeFocus ? 2 : 1
+                border.color: "#888"
+                radius: 4
+                gradient: Gradient {
+                    GradientStop { position: 0 ; color: control.pressed ? "#ccc" : "#eee" }
+                    GradientStop { position: 1 ; color: control.pressed ? "#aaa" : "#ccc" }
+                }
+            }
+        }
     }
 
     Button {
         id: celticCross
         Layout.fillWidth: true
+        iconSource: "img/icons/celticcross.png"
+        style: ButtonStyle {
+            background: Rectangle {
+                /*implicitWidth: 100
+                        implicitHeight: 25*/
+                border.width: control.activeFocus ? 2 : 1
+                border.color: "#888"
+                radius: 4
+                gradient: Gradient {
+                    GradientStop { position: 0 ; color: control.pressed ? "#ccc" : "#eee" }
+                    GradientStop { position: 1 ; color: control.pressed ? "#aaa" : "#ccc" }
+                }
+            }
+        }
     }
 
-    RowLayout {        
+
+    RowLayout {
         CheckBox {
             anchors.top: parent.top
             text: "Only Major Arcana"

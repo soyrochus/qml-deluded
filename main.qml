@@ -21,8 +21,8 @@ ApplicationWindow {
 
     Action {
         id: singleCart
-        text: qsTr("&Single Cart")
-        onTriggered: print("New Single Cart")
+        text: qsTr("&Single Card")
+        onTriggered: print("New Single Card")
     }
 
     Action {
