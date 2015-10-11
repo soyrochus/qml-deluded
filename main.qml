@@ -5,9 +5,11 @@ import QtQuick.Window 2.2
 import QtQuick.Dialogs 1.2
 import QtQuick.Layouts 1.2
 
-
 ApplicationWindow {
-    title: qsTr("Hello World")
+
+    property string deluded: "Deluded"
+
+    title: qsTr(deluded)
     minimumWidth: 800
     minimumHeight: 600
     visible: true
@@ -61,44 +63,12 @@ ApplicationWindow {
        logAction: log
     }
 
+    SingleCard {
 
-    RowLayout {
-        id: row
-        visible: false
-        anchors.fill: parent
-        Card {
-            id: cart
-            frontImageSource: "img/large/maj21.jpg"
-            backImageSource: "img/large/tarot-back.jpg"
-            angle: 180
-            yAxis: 1
-        }
-        Rectangle {
-            id: cartText
-            Layout.fillWidth: true
-            Layout.margins: 2
-            height: cart.height - 10
-            border.color: "lightsteelblue"
-            border.width: 4
-            radius: 8
-            Text{              
-                anchors.margins: 10
-                anchors.fill: parent
-                text: "<b>Hello</b> <i>World!</i>"
-                font.family: "Century Schoolbook L"
-                font.pointSize: 12
-            }
-        }
+
     }
 
-    /*MainForm {L
-        anchors.fill: parent
-        button1.onClicked: messageDialog.show(qsTr("Button 1 pressed"))
-        button2.onClicked: messageDialog.show(qsTr("Button 2 pressed"))
-        button3.onClicked: messageDialog.show(qsTr("Button 3 pressed"))
-    }
-
-    MessageDialog {
+    /*MessageDialog {
         id: messageDialog
         title: qsTr("May I have your attention, please?")
 

@@ -15,7 +15,6 @@ ColumnLayout {
         topMargin: 10
     }
 
-
     Button {
         id: singleCard
         Layout.fillWidth: true
@@ -59,11 +58,9 @@ ColumnLayout {
         CheckBox {
             anchors.top: parent.top
             text: "Only Major Arcana"
-            Component.onCompleted: print(width)
         }
         Image {
             Layout.alignment: Qt.AlignLeft
-            Component.onCompleted: print(paintedHeight)
             Layout.maximumHeight: 165
             id: img
             Layout.maximumWidth: 120

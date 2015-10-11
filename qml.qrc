@@ -8,5 +8,7 @@
         <file>MainForm.qml</file>
         <file>img/icons/celticcross.png</file>
         <file>img/icons/card.png</file>
+        <file>SingleCard.qml</file>
+        <file>CardDetail.qml</file>
     </qresource>
 </RCC>
