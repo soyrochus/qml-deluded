@@ -4,9 +4,38 @@ import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 
 ColumnLayout {
+    id: container
     property alias singleCartAction: singleCard.action
     property alias celticCrossAction: celticCross.action
     property alias logAction: log.action
+
+    states: State {
+        name: "allcards"
+        when: !(check.checked)
+        PropertyChanges {
+            target: imgMajor
+            opacity: 0
+        }
+        PropertyChanges {
+            target: imgAll
+            opacity: 1
+        }
+    }
+
+    transitions: Transition {
+        ParallelAnimation {
+            NumberAnimation {
+                target: imgMajor
+                properties: "opacity"
+                duration: 300
+            }
+            NumberAnimation {
+                target: imgAll
+                properties: "opacity"
+                duration: 300
+            }
+        }
+    }
 
     anchors {
         left: parent.left
@@ -56,21 +85,29 @@ ColumnLayout {
 
     RowLayout {
         CheckBox {
+            id: check
             anchors.top: parent.top
             text: "Only Major Arcana"
+            checked: true
         }
-        Image {
+        Item {
             Layout.alignment: Qt.AlignLeft
-            //Layout.maximumHeight: 165
-            id: img
-            //Layout.maximumWidth: 120
-            //height: 165
-            fillMode: Image.PreserveAspectFit
             anchors.top: parent.top
-            source: "img/small/maj21s.gif"
-            //source: "img/large/maj21.jpg"
+            anchors.left: check.right
+            height: imgMajor.height
+            Image {
+                id: imgMajor
+                fillMode: Image.PreserveAspectFit
+                source: "img/small/maj21s.gif"
+                opacity: 1
+            }
+            Image {
+                id: imgAll
+                fillMode: Image.PreserveAspectFit
+                source: "img/small/allcards.gif"
+                opacity: 0
+            }
         }
-
     }
     Button {
         id: log

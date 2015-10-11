@@ -14,5 +14,7 @@
         <file>img/small/maj21s.gif</file>
         <file>CelticCross.qml</file>
         <file>None.qml</file>
+        <file>img/small/allcards.gif</file>
+        <file>Rect.qml</file>
     </qresource>
 </RCC>

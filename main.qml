@@ -73,12 +73,12 @@ ApplicationWindow {
         }
 
 
-    CelticCross {}
-    /*MainForm{
+    /*CelticCross {}*/
+    MainForm{
        singleCartAction: singleCart
        celticCrossAction: celticCross
        logAction: log
-    }*/
+    }
 
     /*SingleCard {}*/
 
