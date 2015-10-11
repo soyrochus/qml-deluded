@@ -10,5 +10,9 @@
         <file>img/icons/card.png</file>
         <file>SingleCard.qml</file>
         <file>CardDetail.qml</file>
+        <file>img/small/tarot-backs.gif</file>
+        <file>img/small/maj21s.gif</file>
+        <file>CelticCross.qml</file>
+        <file>None.qml</file>
     </qresource>
 </RCC>

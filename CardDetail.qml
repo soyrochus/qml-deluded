@@ -4,10 +4,13 @@ import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 
 Rectangle {
+
+    property int totalheight: 0
+
     id: cartText
     Layout.fillWidth: true
     Layout.margins: 2
-    height: cart.height - 10
+    height: totalheight - 10
     border.color: "lightsteelblue"
     border.width: 4
     radius: 8

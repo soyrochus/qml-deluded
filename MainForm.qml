@@ -61,13 +61,14 @@ ColumnLayout {
         }
         Image {
             Layout.alignment: Qt.AlignLeft
-            Layout.maximumHeight: 165
+            //Layout.maximumHeight: 165
             id: img
-            Layout.maximumWidth: 120
-            height: 165
+            //Layout.maximumWidth: 120
+            //height: 165
             fillMode: Image.PreserveAspectFit
             anchors.top: parent.top
-            source: "img/large/maj21.jpg"
+            source: "img/small/maj21s.gif"
+            //source: "img/large/maj21.jpg"
         }
 
     }

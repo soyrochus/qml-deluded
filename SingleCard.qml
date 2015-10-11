@@ -5,8 +5,6 @@ import QtQuick.Controls.Styles 1.4
 
 RowLayout {
     id: row
-    //opacity: 0
-    visible: false
     anchors.fill: parent
     Card {
         id: cart
@@ -17,6 +15,6 @@ RowLayout {
     }
     CardDetail {
 
-
+        totalheight: cart.height
     }
 }

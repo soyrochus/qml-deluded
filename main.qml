@@ -57,16 +57,17 @@ ApplicationWindow {
         }
     }
 
-    MainForm{
+    /*CardDetail{
+        totalheight: parent.height
+    }*/
+    /*CelticCross {}*(
+    /*MainForm{
        singleCartAction: singleCart
        celticCrossAction: celticCross
        logAction: log
-    }
+    }*/
 
-    SingleCard {
-
-
-    }
+    SingleCard {}
 
     /*MessageDialog {
         id: messageDialog
