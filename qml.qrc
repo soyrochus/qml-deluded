@@ -16,5 +16,6 @@
         <file>None.qml</file>
         <file>img/small/allcards.gif</file>
         <file>Rect.qml</file>
+        <file>Shuffle.qml</file>
     </qresource>
 </RCC>

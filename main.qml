@@ -7,6 +7,7 @@ import QtQuick.Layouts 1.2
 
 ApplicationWindow {
 
+    id: app
     property string deluded: "Deluded"
 
     title: qsTr(deluded)
@@ -58,27 +59,30 @@ ApplicationWindow {
     }
 
     toolBar:ToolBar {
-            RowLayout {
-                anchors.fill: parent
-                ToolButton {
-                    iconName: "back"
-                }
-                /*Item { Layout.fillWidth: true }
+        RowLayout {
+            anchors.fill: parent
+            ToolButton {
+                iconName: "back"
+            }
+            /*Item { Layout.fillWidth: true }
                 CheckBox {
                     text: "Enabled"
                     checked: true
                     Layout.alignment: Qt.AlignRight
                 }*/
-            }
         }
+    }
 
+
+
+    Shuffle {}
 
     /*CelticCross {}*/
-    MainForm{
+    /*MainForm{
        singleCartAction: singleCart
        celticCrossAction: celticCross
        logAction: log
-    }
+    }*/
 
     /*SingleCard {}*/
 
