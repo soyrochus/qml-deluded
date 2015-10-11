@@ -19,21 +19,48 @@ ApplicationWindow {
         }
     }
 
+    Action {
+        id: singleCart
+        text: qsTr("&Single Cart")
+        onTriggered: print("New Single Cart")
+    }
+
+    Action {
+        id: celticCross
+        text: qsTr("&Celtic Cross")
+        onTriggered: print("New Celtic Cross")
+    }
+
+    Action {
+        id: log
+        text: qsTr("&Log")
+        onTriggered: print("Log")
+    }
+
+    Action {
+        id: exit
+        text: qsTr("E&xit")
+        onTriggered: Qt.quit();
+    }
+
     menuBar: MenuBar {
         Menu {
             title: qsTr("&File")
             MenuItem {
-                text: qsTr("&Open")
-                onTriggered: messageDialog.show(qsTr("Open action triggered"));
+                action: log
             }
             MenuItem {
-                text: qsTr("E&xit")
-                onTriggered: Qt.quit();
+                action: exit              
             }
         }
     }
 
-    MainForm {}
+    MainForm{
+       singleCartAction: singleCart
+       celticCrossAction: celticCross
+       logAction: log
+    }
+
 
     RowLayout {
         id: row
