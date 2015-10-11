@@ -52,22 +52,35 @@ ApplicationWindow {
                 action: log
             }
             MenuItem {
-                action: exit              
+                action: exit
             }
         }
     }
 
-    /*CardDetail{
-        totalheight: parent.height
-    }*/
-    /*CelticCross {}*(
+    toolBar:ToolBar {
+            RowLayout {
+                anchors.fill: parent
+                ToolButton {
+                    iconName: "back"
+                }
+                /*Item { Layout.fillWidth: true }
+                CheckBox {
+                    text: "Enabled"
+                    checked: true
+                    Layout.alignment: Qt.AlignRight
+                }*/
+            }
+        }
+
+
+    CelticCross {}
     /*MainForm{
        singleCartAction: singleCart
        celticCrossAction: celticCross
        logAction: log
     }*/
 
-    SingleCard {}
+    /*SingleCard {}*/
 
     /*MessageDialog {
         id: messageDialog

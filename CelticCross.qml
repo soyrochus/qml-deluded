@@ -10,15 +10,13 @@ RowLayout {
     visible: true
     anchors.fill: parent
 
-    CardDetail {}
-
     GridLayout{
         id: grid
         columns: 3
         rows: 3
         Layout.alignment: Qt.AlignLeft
-        Layout.fillWidth: false
-        anchors.left: parent.left
+        //Layout.fillWidth: false
+        //anchors.left: parent.left
 
         None {}
         Card {
@@ -61,10 +59,10 @@ RowLayout {
     }
 
     ColumnLayout {
-
+        id: column
         Layout.alignment: Qt.AlignLeft
-        Layout.fillWidth: false
-        anchors.left: grid.right
+        //Layout.fillWidth: false
+        //anchors.left: grid.right
 
         Card {
             frontImageSource: "img/small/maj21s.gif"
@@ -92,6 +90,10 @@ RowLayout {
             yAxis: 1
         }
 
+    }
+    CardDetail {
+        totalheight: column.height
+        //anchors.left: column.right
     }
 
 
