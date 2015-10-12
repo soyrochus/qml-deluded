@@ -17,7 +17,6 @@ RowLayout {
         }
     }
 
-
     GridLayout{
         id: grid
         columns: 3

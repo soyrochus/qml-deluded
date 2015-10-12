@@ -78,7 +78,7 @@ ApplicationWindow {
     }
 
     CelticCross {
-        visible: true
+        visible: false
     }
 
     Log {
@@ -89,7 +89,7 @@ ApplicationWindow {
         singleCartAction: singleCart
         celticCrossAction: celticCross
         logAction: log
-        visible: false
+        visible: true
     }
 
     SingleCard {
