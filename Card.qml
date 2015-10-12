@@ -6,9 +6,11 @@ Flipable {
     property alias frontImageSource: frontImage.source
     property alias backImageSource: backImage.source
     property bool flipped: true
+    property bool singleFlip: false
     property int xAxis: 0
     property int yAxis: 0
     property int angle: 0
+
 
     width: front.width
     height: front.height
@@ -25,7 +27,12 @@ Flipable {
 
     MouseArea {
         anchors.fill: parent
-        onClicked: container.flipped = !container.flipped
+        onClicked: {
+            if (container.singleFlip && !container.flipped) {
+                return;
+            }
+            container.flipped = !container.flipped
+        }
     }
 
     transform: Rotation {

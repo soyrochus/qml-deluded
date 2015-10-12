@@ -6,7 +6,10 @@ import QtQuick.Controls.Styles 1.4
 
 RowLayout {
     id: row
-    anchors.fill: parent
+
+    property alias singleFlip: cart.singleFlip
+
+    anchors.fill: parent    
     Card {
         id: cart
         frontImageSource: "img/large/maj21.jpg"
