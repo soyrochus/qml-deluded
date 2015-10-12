@@ -78,21 +78,26 @@ ApplicationWindow {
     }
 
     CelticCross {
-           visible: false
-    }
-    MainForm{
-       singleCartAction: singleCart
-       celticCrossAction: celticCross
-       logAction: log
-       visible: false
-    }
-
-    SingleCard {
-        singleFlip: false
         visible: true
     }
 
-   /* MessageDialog {
+    Log {
+        visible: false
+    }
+
+    MainForm{
+        singleCartAction: singleCart
+        celticCrossAction: celticCross
+        logAction: log
+        visible: false
+    }
+
+    SingleCard {
+        singleFlip: true
+        visible: false
+    }
+
+    /* MessageDialog {
         id: messageDialog
         title: qsTr("May I have your attention, please?")
 

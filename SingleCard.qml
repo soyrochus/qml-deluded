@@ -3,13 +3,12 @@ import QtQuick.Layouts 1.2
 import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 
-
 RowLayout {
     id: row
 
     property alias singleFlip: cart.singleFlip
 
-    anchors.fill: parent    
+    anchors.fill: parent
     Card {
         id: cart
         frontImageSource: "img/large/maj21.jpg"

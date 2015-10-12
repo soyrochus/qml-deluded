@@ -9,7 +9,7 @@ Item {
         text: "Please concentrate on the subject at hand...\n"
         anchors.centerIn: pbholder
     }
-   ProgressBar {
+    ProgressBar {
         indeterminate: true
         x: 80
         width: pbholder.width - 160

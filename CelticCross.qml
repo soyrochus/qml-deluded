@@ -10,6 +10,14 @@ RowLayout {
     visible: true
     anchors.fill: parent
 
+    Component {
+        id: none
+        Text {
+            text:""
+        }
+    }
+
+
     GridLayout{
         id: grid
         columns: 3

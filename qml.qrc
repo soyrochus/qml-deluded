@@ -17,5 +17,7 @@
         <file>img/small/allcards.gif</file>
         <file>Rect.qml</file>
         <file>Shuffle.qml</file>
+        <file>Log.qml</file>
+        <file>ReadingModel.qml</file>
     </qresource>
 </RCC>

@@ -10,13 +10,13 @@ Item {
         color: "red"
 
         MouseArea {
-           id: mouseArea
-           anchors.fill: parent
+            id: mouseArea
+            anchors.fill: parent
         }
 
         states: State {
-           name: "resized"; when: mouseArea.pressed
-           PropertyChanges { target: rect; color: "blue"; height: container.height }
+            name: "resized"; when: mouseArea.pressed
+            PropertyChanges { target: rect; color: "blue"; height: container.height }
         }
     }
 }
