@@ -19,5 +19,6 @@
         <file>Shuffle.qml</file>
         <file>Log.qml</file>
         <file>ReadingModel.qml</file>
+        <file>ReadingTest.qml</file>
     </qresource>
 </RCC>

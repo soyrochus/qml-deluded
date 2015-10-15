@@ -1,6 +1,7 @@
 #include <QApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlEngine>
+#include <QtQml>
 #include "reading.h"
 
 using namespace deluded;

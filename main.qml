@@ -73,6 +73,10 @@ ApplicationWindow {
         }
     }
 
+    ReadingTest {
+
+    }
+
     Shuffle {
         visible: false
     }
@@ -89,11 +93,11 @@ ApplicationWindow {
         singleCartAction: singleCart
         celticCrossAction: celticCross
         logAction: log
-        visible: true
+        visible: false
     }
 
     SingleCard {
-        singleFlip: true
+        singleFlip: false
         visible: false
     }
 
