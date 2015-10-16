@@ -64,14 +64,14 @@ ColumnLayout {
     Button {
         id: singleCard
         Layout.fillWidth: true
-        iconSource: "img/icons/card.png"
+        iconSource: "qrc:/img/icons/card.png"
         style: buttonStyle
     }
 
     Button {
         id: celticCross
         Layout.fillWidth: true
-        iconSource: "img/icons/celticcross.png"
+        iconSource: "qrc:/img/icons/celticcross.png"
         style: buttonStyle
     }
 
@@ -90,13 +90,13 @@ ColumnLayout {
             Image {
                 id: imgMajor
                 fillMode: Image.PreserveAspectFit
-                source: "img/small/maj21s.gif"
+                source: "qrc:/img/small/maj21s.gif"
                 opacity: 1
             }
             Image {
                 id: imgAll
                 fillMode: Image.PreserveAspectFit
-                source: "img/small/allcards.gif"
+                source: "qrc:/img/small/allcards.gif"
                 opacity: 0
             }
         }

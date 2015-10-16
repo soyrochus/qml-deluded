@@ -73,16 +73,16 @@ ApplicationWindow {
         }
     }
 
-    ReadingTest {
+    /*ReadingTest {
 
-    }
+    }*/
 
     Shuffle {
         visible: false
     }
 
     CelticCross {
-        visible: false
+        visible: true
     }
 
     Log {

@@ -19,7 +19,7 @@ Flipable {
     }
     back: Image {
         id: backImage
-        source: "img/large/tarot-back.jpg"
+        source: "qrc:/img/large/tarot-back.jpg"
     }
 
     state: "back"

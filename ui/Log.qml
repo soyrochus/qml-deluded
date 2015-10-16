@@ -8,7 +8,7 @@ Rectangle {
 
     function imgUrl(img){
 
-        return (img === 0) ? "img/icons/card.png" : "img/icons/celticcross.png"
+        return (img === 0) ? "qrc:/img/icons/card.png" : "qrc:/img/icons/celticcross.png"
     }
 
 

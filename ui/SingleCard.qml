@@ -11,8 +11,8 @@ RowLayout {
     anchors.fill: parent
     Card {
         id: cart
-        frontImageSource: "img/large/maj21.jpg"
-        backImageSource: "img/large/tarot-back.jpg"
+        frontImageSource: "qrc:/img/large/maj21.jpg"
+        backImageSource: "qrc:/img/large/tarot-back.jpg"
         angle: 180
         yAxis: 1
     }

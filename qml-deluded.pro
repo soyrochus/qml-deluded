@@ -18,3 +18,17 @@ include(deployment.pri)
 
 HEADERS += \
     reading.h
+
+DISTFILES += \
+    ui/Card.qml \
+    ui/CardDetail.qml \
+    ui/CelticCross.qml \
+    ui/main.qml \
+    ui/MainForm.qml \
+    ui/None.qml \
+    ui/ReadingModel.qml \
+    ui/ReadingTest.qml \
+    ui/Rect.qml \
+    ui/Shuffle.qml \
+	ui/Log.qml \
+    ui/SingleCard.qml

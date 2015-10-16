@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
     qmlRegisterType<Reading>("deluded", 1, 0, "Reading");
     //qmlRegisterType<ReadingModel>("deluded", 1, 0, "AppModel");
-    engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:/ui/main.qml")));
 
     return app.exec();
 }

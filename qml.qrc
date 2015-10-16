@@ -1,24 +1,24 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
-        <file>Card.qml</file>
         <file>img/large/maj21.jpg</file>
         <file>img/large/tarot-back.jpg</file>
         <file>img/large/cups02.jpg</file>
-        <file>MainForm.qml</file>
         <file>img/icons/celticcross.png</file>
         <file>img/icons/card.png</file>
-        <file>SingleCard.qml</file>
-        <file>CardDetail.qml</file>
         <file>img/small/tarot-backs.gif</file>
         <file>img/small/maj21s.gif</file>
-        <file>CelticCross.qml</file>
-        <file>None.qml</file>
         <file>img/small/allcards.gif</file>
-        <file>Rect.qml</file>
-        <file>Shuffle.qml</file>
-        <file>Log.qml</file>
-        <file>ReadingModel.qml</file>
-        <file>ReadingTest.qml</file>
+        <file>ui/Card.qml</file>
+        <file>ui/CardDetail.qml</file>
+        <file>ui/CelticCross.qml</file>
+        <file>ui/Log.qml</file>
+        <file>ui/main.qml</file>
+        <file>ui/MainForm.qml</file>
+        <file>ui/None.qml</file>
+        <file>ui/ReadingModel.qml</file>
+        <file>ui/ReadingTest.qml</file>
+        <file>ui/Rect.qml</file>
+        <file>ui/Shuffle.qml</file>
+        <file>ui/SingleCard.qml</file>
     </qresource>
 </RCC>

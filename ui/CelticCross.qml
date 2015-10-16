@@ -27,38 +27,38 @@ RowLayout {
 
         None {}
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
         None{}
 
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
 
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
 
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
 
         None{}
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
@@ -72,27 +72,27 @@ RowLayout {
         //anchors.left: grid.right
 
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
 
         Card {
-            frontImageSource: "img/small/maj21s.gif"
-            backImageSource: "img/small/tarot-backs.gif"
+            frontImageSource: "qrc:/img/small/maj21s.gif"
+            backImageSource: "qrc:/img/small/tarot-backs.gif"
             angle: 180
             yAxis: 1
         }
